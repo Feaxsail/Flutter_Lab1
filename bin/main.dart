@@ -1,40 +1,40 @@
-void main(){
-  String name = "Артём";
-  String? name2 = null;
+// void main(){
+//   String name = "Артём";
+//   String? name2 = null;
 
-  var count = 0;
-  var title = "Учить Rust"
+//   var count = 0;
+//   var title = "Учить Rust"
 
-  var x = 5;
-  // x = "test";
+//   var x = 5;
+//   // x = "test";
 
-  final id  = "id";
+//   final id  = "id";
 
-  const appName = "TodoApp";
+//   const appName = "TodoApp";
 
-  print("$name, $name2,$count,$title,$id,$appName");
+//   print("$name, $name2,$count,$title,$id,$appName");
 
- List<String> tags = ["институт","дом"];
- Map<String, dynamic> data = {"key","value","num":13};
- Set<int> ids = {1,2,3};
+//  List<String> tags = ["институт","дом"];
+//  Map<String, dynamic> data = {"key","value","num":13};
+//  Set<int> ids = {1,2,3};
 
- dynamic anything = 42;
- anything = "now a string";
+//  dynamic anything = 42;
+//  anything = "now a string";
 
- String greet(String name) => "Hello, $name!";
+//  String greet(String name) => "Hello, $name!";
 
- void printTodo({required String title, bool done = false}){
-  print('${done ? "+" : "-"} $title')
+//  void printTodo({required String title, bool done = false}){
+//   print('${done ? "+" : "-"} $title')
 
-  printTodo(title: "Купить молоко");
-  printTodo(title: "Проверить код", done: true);
- }
+//   printTodo(title: "Купить молоко");
+//   printTodo(title: "Проверить код", done: true);
+//  }
 
- String repeat(String s, [int times = 2]) => s * times;
+//  String repeat(String s, [int times = 2]) => s * times;
 
 
 
-}
+// }
 
 class Todo {
   final int id;

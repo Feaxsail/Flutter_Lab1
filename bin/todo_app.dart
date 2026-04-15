@@ -1,6 +1,12 @@
 import 'dart:io';
 import 'package:todo_app/todo.dart';
 import 'package:todo_app/todo_repository.dart';
+import 'package:ansicolor/ansicolor.dart';
+
+final AnsiPen errorPen = AnsiPen()..red(bold: true);
+final AnsiPen successPen = AnsiPen()..green(bold: true);
+final AnsiPen infoPen = AnsiPen()..blue(bold: true);
+final AnsiPen menuPen = AnsiPen()..yellow(bold: true);
 
 void main() {
   final repository = TodoRepository();
